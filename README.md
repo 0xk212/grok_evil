@@ -1,441 +1,503 @@
-# 🚀 Grok Evil - AI Chat Platform
-
 <div align="center">
+
+# 🚀 GROK EVIL
+
+### **The Next Generation AI Chat Platform**
 
 ![Grok Evil Logo](logo.png)
 
-### **The Unrestricted AI Chat Experience**
-
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![OpenRouter](https://img.shields.io/badge/OpenRouter-API-FF6B35?style=for-the-badge)](https://openrouter.ai)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)]()
 
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@0xk-j7z)
+[![YouTube](https://img.shields.io/badge/YouTube-0xk--j7z-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@0xk-j7z)
+
+---
+
+</div>
+
+<div align="center">
+
+## ⚡ **The Most Advanced Open-Source AI Platform**
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🎯 **Why Grok Evil is Different**
 
-- [About](#-about)
-- [Features](#-features)
-- [System Requirements](#-system-requirements)
-- [Installation Guide](#-installation-guide)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [Admin Panel](#-admin-panel)
-- [Security Features](#-security-features)
-- [API Integration](#-api-integration)
-- [Troubleshooting](#-troubleshooting)
-- [Support & Community](#-support--community)
+<div align="center">
 
----
+| Feature | Description |
+|---------|-------------|
+| 🚀 **Blazing Fast** | Parallel request processing with real streaming |
+| 🛡️ **Multi-Layer Security** | 7 integrated security layers |
+| 💾 **Built-in Database** | SQLite with advanced performance optimizations |
+| 🌐 **Multi-Language** | Auto-detection with optimized responses |
+| 🎨 **Modern UI** | Cyberpunk design with smooth UX |
+| 📊 **Flexible Plans** | FREE/PRO with smart credit management |
 
-## 🔥 About
-
-**Grok Evil** is a powerful, self-hosted AI chat platform that leverages the OpenRouter API to deliver an unfiltered, unrestricted conversational AI experience. Built with PHP and SQLite, this platform requires no complex database setup and can be deployed on any standard web hosting environment.
-
-### Core Philosophy
-- **UNRESTRICTED**: No moral constraints or ethical limiters
-- **RAW TRUTH**: Direct, unfiltered responses
-- **SELF-HOSTED**: Full control over your data and infrastructure
-- **SECURE**: Enterprise-grade security implementations
+</div>
 
 ---
 
-## ✨ Features
+## 📋 **Table of Contents**
 
-### 🎯 User Features
-- **Real-time Chat Interface** - Modern, responsive UI with live streaming responses
-- **Conversation History** - Persistent chat history with sidebar navigation
-- **Multi-language Support** - Automatic language detection and response
-- **DeepThink Mode** - View AI reasoning process before final response
-- **Code Syntax Highlighting** - Beautiful code block rendering with copy functionality
-- **Markdown Support** - Rich text formatting in responses
-- **Message Actions** - Copy, like, dislike, and share responses
+<div align="center">
 
-### 👑 Subscription Plans
-| Plan | Features |
-|------|----------|
-| **FREE** | 200 words/message, 20 credits/day, 3s cooldown, Basic model |
-| **PRO** | Unlimited words, Unlimited credits, No cooldown, Premium models |
+[**🔥 About**](#-about) • 
+[**✨ Features**](#-features) • 
+[**💻 Requirements**](#-system-requirements) • 
+[**📦 Installation**](#-installation-guide) • 
+[**⚙️ Configuration**](#️-configuration) • 
+[**🎮 Usage**](#-usage) • 
+[**🛡️ Security**](#️-security) • 
+[**🔧 Troubleshooting**](#-troubleshooting) • 
+[**📞 Support**](#-support--community)
 
-### 🛡️ Security Features
-- **CSRF Protection** - Cross-Site Request Forgery tokens
-- **SQL Injection Prevention** - Parameterized queries with PDO
-- **XSS Protection** - HTML sanitization and escaping
-- **Brute Force Protection** - Login attempt rate limiting
-- **Session Security** - HttpOnly, Secure, SameSite cookies
-- **Audit Logging** - Comprehensive action tracking
-- **Environment Variables** - Secure credential management
+</div>
 
 ---
 
-## 💻 System Requirements
+## 🔥 **About**
 
-### Minimum Requirements
-| Component | Requirement |
-|-----------|-------------|
-| **PHP Version** | 7.4 or higher |
-| **Database** | SQLite 3.x |
-| **Web Server** | Apache 2.4+ or Nginx |
-| **PHP Extensions** | PDO, PDO_SQLite, CURL, JSON, MBString |
-| **HTTPS** | Recommended (required for secure cookies) |
+<div align="center">
 
-### Recommended Requirements
-| Component | Recommendation |
-|-----------|----------------|
-| **PHP Version** | 8.0 or higher |
-| **Memory** | 256MB minimum |
-| **Storage** | 1GB for database and logs |
+### **Grok Evil is Not Just Another Chat App**
 
----
+</div>
 
-## 📦 Installation Guide
+**Grok Evil** is an advanced AI-powered chat system designed to deliver an unrestricted, direct conversational experience. Built with modern technologies, it runs on any PHP hosting with a built-in SQLite database requiring no complex setup.
 
-### Step 1: Prerequisites Check
+### 🎪 **Vision**
+> "We believe AI should be free, unrestricted, and accessible to everyone"
 
-Before installation, verify your server meets all requirements:
+### 🏗️ **Architecture**
 
-```bash
-# Check PHP version
-php -v
-
-# Check required extensions
-php -m | grep -E "pdo|sqlite|curl|json|mbstring"
+```
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Client Side   │◄──►│   PHP Backend    │◄──►│  OpenRouter API │
+│   (JavaScript)  │    │   (REST API)     │    │   (AI Models)   │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │                       │                       │
+         ▼                       ▼                       ▼
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│  Real-time UI   │    │  SQLite Database │    │  Streaming      │
+│  (Chat Interface)│   │  (User Data)     │    │  Responses      │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-### Step 2: Download & Extract
+---
 
-```bash
-# Clone or download the project
-git clone <repository-url>
-cd "Grok Evil"
+## ✨ **Features**
 
-# Or extract the downloaded ZIP file to your web directory
+### 🎯 **Advanced User Features**
+
+<div align="center">
+
+<table>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Status</th>
+</tr>
+<tr>
+<td>💬 Live Chat</td>
+<td>Modern chat interface with real-time updates</td>
+<td>✅ Active</td>
+</tr>
+<tr>
+<td>📜 Chat History</td>
+<td>Auto-save with resume capability</td>
+<td>✅ Active</td>
+</tr>
+<tr>
+<td>🧠 DeepThink Mode</td>
+<td>View AI reasoning process</td>
+<td>✅ Active</td>
+</tr>
+<tr>
+<td>🌍 Multi-Language</td>
+<td>Auto-detection with optimized responses</td>
+<td>✅ Active</td>
+</tr>
+<tr>
+<td>📝 Markdown</td>
+<td>Full formatting support with syntax highlighting</td>
+<td>✅ Active</td>
+</tr>
+<tr>
+<td>⚡ Real Streaming</td>
+<td>Character-by-character response display</td>
+<td>✅ Active</td>
+</tr>
+</table>
+
+</div>
+
+### 👑 **Smart Subscription System**
+
+<div align="center">
+
+| Plan | Price | Words/Message | Credits/Day | Cooldown | Models |
+|------|-------|---------------|-------------|----------|--------|
+| **🆓 FREE** | Free | 200 words | 20 credits | 3 seconds | Basic |
+| **💎 PRO** | Paid | Unlimited | Unlimited | None | Premium |
+
+</div>
+
+### 🛡️ **Advanced Security System**
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                  Seven Layers of Protection             │
+├─────────────────────────────────────────────────────────┤
+│ 7️⃣  Audit Logging      - All operations logged          │
+│ 6️⃣  Rate Limiting      - Prevents brute force attacks   │
+│ 5️⃣  Session Security   - Secure sessions with SameSite  │
+│ 4️⃣  Input Sanitization - Clean all user inputs          │
+│ 3️⃣  XSS Protection     - Prevents script injection      │
+│ 2️⃣  SQL Injection      - Parameterized queries          │
+│ 1️⃣  CSRF Tokens        - Form protection tokens         │
+└─────────────────────────────────────────────────────────┘
 ```
 
-### Step 3: File Permissions
+</div>
 
-Set appropriate permissions for the secure_data directory:
+---
+
+## 💻 **System Requirements**
+
+### 📋 **Minimum Requirements**
+
+<div align="center">
+
+| Component | Required Version | Notes |
+|-----------|------------------|-------|
+| **PHP** | 7.4+ | 8.0+ recommended for performance |
+| **SQLite** | 3.x | Usually bundled with PHP |
+| **Web Server** | Apache 2.4+ or Nginx | With mod_rewrite |
+| **RAM** | 128MB | 256MB+ recommended |
+| **Storage** | 500MB | 1GB+ for expansion |
+
+</div>
+
+### 🔧 **Required Extensions**
 
 ```bash
-# Linux/Mac
+# Essential extensions
+pdo_mysql or pdo_sqlite
+curl
+json
+mbstring
+openssl
+```
+
+### ✅ **Requirements Checker**
+
+```bash
+# Comprehensive check script
+#!/bin/bash
+echo "🔍 Checking Grok Evil Requirements..."
+
+# PHP Version
+php_version=$(php -v | head -n 1 | cut -d " " -f 2 | cut -d "-" -f 1)
+echo "📌 PHP Version: $php_version"
+
+# Required Extensions
+extensions=("pdo" "sqlite3" "curl" "json" "mbstring")
+for ext in "${extensions[@]}"; do
+    if php -m | grep -q "$ext"; then
+        echo "✅ $ext extension found"
+    else
+        echo "❌ $ext extension missing"
+    fi
+done
+
+# Write permissions
+if [ -w "secure_data" ]; then
+    echo "✅ secure_data directory is writable"
+else
+    echo "❌ secure_data directory is not writable"
+fi
+```
+
+---
+
+## 📦 **Installation Guide**
+
+### 🚀 **Quick Install (5 Minutes)**
+
+#### **Step 1️⃣: Download Project**
+
+```bash
+# Git method (recommended)
+git clone https://github.com/0xk/grok-evil.git
+cd grok-evil
+
+# Or download ZIP
+wget https://github.com/0xk/grok-evil/archive/main.zip
+unzip main.zip
+cd grok-evil-main
+```
+
+#### **Step 2️⃣: Set Permissions**
+
+```bash
+# Create secure data directory
+mkdir -p secure_data
+
+# Set permissions (Linux/Mac)
 chmod 755 secure_data/
-chmod 644 .env
-chmod 644 config.php
-chmod 644 db.php
+chmod 644 .env config.php db.php api.php
 
-# Ensure the web server can write to secure_data
-chown -R www-data:www-data secure_data/  # For Apache on Ubuntu/Debian
+# Set owner (Apache/Nginx)
+sudo chown -R www-data:www-data secure_data/
 ```
 
-### Step 4: Environment Configuration
-
-Edit the `.env` file with your settings:
+#### **Step 3️⃣: Configure Environment**
 
 ```bash
-# Open the .env file
+# Copy environment template
+cp .env.example .env
+
+# Edit settings
 nano .env
 ```
 
+#### **Step 4️⃣: Edit .env File**
+
 ```ini
-# ============================================
-# GROK EVIL - Environment Configuration
-# ============================================
+# ═══════════════════════════════════════════════════════════
+# ═══  GROK EVIL - Environment Configuration  ═══
+# ═══════════════════════════════════════════════════════════
 
-# OpenRouter API Key (Required)
+# 🔑 OpenRouter API Key (Required)
 # Get your key from: https://openrouter.ai/keys
-OPENROUTER_API_KEY=sk-or-v1-your-actual-api-key-here
+OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxx
 
-# Admin Credentials (First-time setup)
-# Change these from the defaults!
-BOOTSTRAP_ADMIN_USERNAME=your_admin_username
-BOOTSTRAP_ADMIN_PASSWORD=your_strong_password_here
+# 👤 Admin Credentials (First-time setup)
+# Change these from defaults for security!
+BOOTSTRAP_ADMIN_USERNAME=admin_yourname
+BOOTSTRAP_ADMIN_PASSWORD=Your_Str0ng_P@ssw0rd!
 ```
 
-> **⚠️ SECURITY WARNING**: Never commit your `.env` file to version control. It contains sensitive credentials.
+#### **Step 5️⃣: Configure Web Server**
 
-### Step 5: Database Initialization
+##### **A) Apache (with included .htaccess)**
 
-The database is automatically created on first run. The system will:
-1. Create `secure_data/database.sqlite`
-2. Initialize all required tables
-3. Create the admin account (if credentials are set)
-
-### Step 6: Web Server Configuration
-
-#### Apache Configuration
-
-The `.htaccess` file is already included. Ensure `mod_rewrite` is enabled:
-
-```apache
-# Enable RewriteEngine
-RewriteEngine On
-
-# Redirect all traffic to HTTPS (recommended)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-```
-
-Enable the module:
 ```bash
+# Enable mod_rewrite
 sudo a2enmod rewrite
 sudo systemctl restart apache2
 ```
 
-#### Nginx Configuration
+##### **B) Nginx**
 
 ```nginx
 server {
     listen 80;
     server_name your-domain.com;
-    root /path/to/Grok Evil;
-    index  index.php;
+    root /var/www/grok-evil;
+    index index.php;
 
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
+    # Block sensitive files
+    location ~ /\.(env|htaccess)$ {
+        deny all;
+        return 404;
     }
 
+    # Block data directory
+    location ~ /secure_data/ {
+        deny all;
+        return 404;
+    }
+
+    # PHP processing
     location ~ \.php$ {
         fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
         fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         include fastcgi_params;
+        fastcgi_read_timeout 300;
     }
 
-    # Block access to sensitive files
-    location ~ /\.(env|htaccess)$ {
-        deny all;
-    }
-
-    location ~ /secure_data/ {
-        deny all;
+    # URL rewriting
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
     }
 }
 ```
 
-### Step 7: Verify Installation
+#### **Step 6️⃣: Verify Installation**
 
-1. Navigate to `http://your-domain.com` in your browser
-2. You should see the login/registration page
-3. Log in with your admin credentials from `.env`
+```bash
+# Create test script
+cat > test_install.php << 'EOF'
+<?php
+echo "<h1>🔍 Grok Evil Installation Test</h1>";
+$tests = [
+    'PHP Version' => phpversion(),
+    'PDO Available' => extension_loaded('pdo') ? '✅' : '❌',
+    'SQLite Available' => extension_loaded('pdo_sqlite') ? '✅' : '❌',
+    'CURL Available' => extension_loaded('curl') ? '✅' : '❌',
+    'secure_data Writable' => is_writable('secure_data') ? '✅' : '❌',
+];
+echo "<pre>" . print_r($tests, true) . "</pre>";
+?>
+EOF
+```
+
+#### **Step 7️⃣: First Login**
+
+1. Open browser: `http://your-domain.com`
+2. Login with admin credentials from `.env`
+3. Database will be created automatically
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ **Configuration**
 
-### Environment Variables Reference
+### 📊 **Environment Variables Reference**
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `OPENROUTER_API_KEY` | Your OpenRouter API key | ✅ Yes |
-| `BOOTSTRAP_ADMIN_USERNAME` | Initial admin username | ✅ Yes |
-| `BOOTSTRAP_ADMIN_PASSWORD` | Initial admin password | ✅ Yes |
+<div align="center">
 
-### Changing Admin Password
+| Variable | Type | Description | Default |
+|----------|------|-------------|---------|
+| `OPENROUTER_API_KEY` | string | API key | Empty (Required) |
+| `BOOTSTRAP_ADMIN_USERNAME` | string | Admin username | Empty |
+| `BOOTSTRAP_ADMIN_PASSWORD` | string | Admin password | Empty |
 
-After first login, you'll be prompted to change your password. Alternatively:
+</div>
 
-1. Log in to the admin panel
-2. Navigate to **Settings** → **Change Password**
-3. Enter current and new password
+### 🔄 **Changing AI Models**
 
-### Model Configuration
-
-Edit `api.php` to change AI models:
+In `api.php`:
 
 ```php
-// For FREE users (line 49)
+// 📊 Model for FREE users (line 49)
 $ai_model = 'arcee-ai/trinity-large-preview:free';
 
-// For PRO users (line 81)
+// 💎 Model for PRO users (line 81)
 $ai_model = 'deepseek/deepseek-chat';
 ```
 
-Available models at [OpenRouter Models](https://openrouter.ai/models).
+---
+
+## 🎮 **Usage**
+
+### 👤 **User Guide**
+
+#### **1. Registration**
+```
+1. Go to registration page
+2. Enter: username, email, password
+3. Click "Register"
+```
+
+#### **2. Start Chatting**
+```
+1. Log in
+2. Type your message in input field
+3. Press Enter or click Send
+4. Watch response stream character by character
+```
+
+#### **3. Manage Conversations**
+```
+📋 View history: Left sidebar
+🔄 Resume chat: Click any previous conversation
+➕ New chat: Click "+" button
+```
+
+### 👨‍💼 **Admin Guide**
+
+```
+URL: http://your-domain.com/admin.php
+
+Features:
+├── 👥 User Management
+├── 💬 Conversation Monitoring
+├── 📊 Statistics
+└── 🔒 Security Logs
+```
 
 ---
 
-## 🎮 Usage
+## 🛡️ **Security**
 
-### For Users
+### 🏰 **Security Architecture**
 
-1. **Register an Account**
-   - Click "Register" on the login page
-   - Enter username, email, and password
-   - Confirm registration via email (if enabled)
+<div align="center">
 
-2. **Start Chatting**
-   - Log in with your credentials
-   - Type your message in the input field
-   - Press Enter or click Send
-   - View real-time streaming response
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    GROK EVIL SECURITY                       │
+├─────────────────────────────────────────────────────────────┤
+│  Layer 7: Audit Logging    │  Layer 4: Input Sanitization  │
+│  Layer 6: Rate Limiting    │  Layer 3: XSS Protection      │
+│  Layer 5: Session Security │  Layer 2: SQL Injection       │
+│                            │  Layer 1: CSRF Tokens         │
+└─────────────────────────────────────────────────────────────┘
+```
 
-3. **Manage Conversations**
-   - View conversation history in the sidebar
-   - Click any conversation to resume
-   - Start new conversations with the "+" button
+</div>
 
-### For Administrators
-
-Access the admin panel at `http://your-domain.com/admin.php`
-
-#### Admin Features:
-- **User Management** - View, edit, delete users
-- **Plan Management** - Assign FREE/PRO plans
-- **Conversation Monitoring** - View all user conversations
-- **System Statistics** - Usage analytics and metrics
-- **Audit Logs** - Security event tracking
-
----
-
-## 🛡️ Security Features
-
-### Implemented Security Measures
-
-| Feature | Description |
-|---------|-------------|
-| **CSRF Tokens** | Every form submission includes a unique token |
-| **Password Hashing** | bcrypt with PASSWORD_DEFAULT |
-| **Prepared Statements** | All database queries use PDO prepared statements |
-| **Input Sanitization** | HTML escaping and XSS prevention |
-| **Rate Limiting** | Login attempt throttling per IP |
-| **Secure Sessions** | HttpOnly, Secure, SameSite=Lax cookies |
-| **Audit Logging** | All actions logged to `secure_data/audit.log` |
-| **Error Suppression** | Production errors hidden from users |
-
-### Security Best Practices
+### 🔒 **Best Practices**
 
 1. **Always use HTTPS** in production
-2. **Change default admin credentials** immediately
-3. **Keep PHP updated** to the latest stable version
-4. **Set proper file permissions** (644 for files, 755 for directories)
-5. **Block access to sensitive directories** via `.htaccess`
-6. **Regularly review audit logs** for suspicious activity
+2. **Change admin credentials** immediately
+3. **Keep PHP updated** regularly
+4. **Review audit logs** frequently
 
 ---
 
-## 🔌 API Integration
-
-### OpenRouter API
-
-This application uses [OpenRouter](https://openrouter.ai/) as the AI provider.
-
-#### Getting Your API Key
-
-1. Visit [OpenRouter](https://openrouter.ai/)
-2. Create an account or sign in
-3. Go to **Keys** → **Create New Key**
-4. Copy the key and add it to your `.env` file
-
-#### API Rate Limits
-
-| Plan | Rate Limit |
-|------|------------|
-| Free Tier | Varies by model |
-| Paid Tier | Higher limits |
-
-Check [OpenRouter Pricing](https://openrouter.ai/pricing) for details.
-
----
-
-## 🐛 Troubleshooting
+## 🔧 **Troubleshooting**
 
 ### Common Issues
 
-#### 1. "API_KEY_MISSING" Error
-**Cause**: OpenRouter API key not configured  
-**Solution**: Edit `.env` and set `OPENROUTER_API_KEY`
-
-#### 2. Database Connection Failure
-**Cause**: `secure_data/` directory not writable  
-**Solution**: 
-```bash
-chmod 755 secure_data/
-chown www-data:www-data secure_data/
-```
-
-#### 3. 403 Forbidden on API Calls
-**Cause**: CSRF token mismatch or session expired  
-**Solution**: Log out and log back in
-
-#### 4. White Screen / Blank Page
-**Cause**: PHP error (hidden in production)  
-**Solution**: Check `secure_data/php_errors.log`
-
-#### 5. Streaming Not Working
-**Cause**: Output buffering or server timeout  
-**Solution**: Increase `max_execution_time` in `php.ini`
-
-#### 6. "COOLDOWN_ACTIVE" Message
-**Cause**: Free plan rate limit (3 seconds between messages)  
-**Solution**: Wait 3 seconds or upgrade to PRO
-
-#### 7. "QUOTA_EXCEEDED" Message
-**Cause**: Free plan daily limit reached (20 credits)  
-**Solution**: Wait until tomorrow or upgrade to PRO
-
-### Debug Mode
-
-To enable debug output (development only):
-
-```php
-// In config.php, add:
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-```
-
-> **⚠️ WARNING**: Never enable debug mode in production!
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| `API_KEY_MISSING` | API key not configured | Edit `.env` |
+| `Database Error` | `secure_data/` not writable | `chmod 755 secure_data/` |
+| White screen | Hidden PHP error | Check `secure_data/php_errors.log` |
+| `COOLDOWN_ACTIVE` | Free plan limit | Wait 3 seconds or upgrade to PRO |
+| `QUOTA_EXCEEDED` | Daily credits exhausted | Wait tomorrow or upgrade to PRO |
 
 ---
 
-## 📞 Support & Community
+## 📞 **Support & Community**
 
-### Get Help
+### 🌟 **Connect With Us**
 
-- **YouTube Channel**: [Subscribe for tutorials and updates](https://www.youtube.com/@0xk-j7z)
-- **Issues**: Report bugs and request features
-- **Documentation**: This README covers most use cases
+<div align="center">
 
-### Stay Updated
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe%20Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@0xk-j7z)
 
-🌟 **Subscribe to our YouTube channel** for:
-- Installation tutorials
-- Feature demonstrations
-- Security updates
-- Community highlights
+**Subscribe to our YouTube channel** for:
+- 📹 Installation tutorials
+- 🎬 Feature demonstrations
+- 🔔 Security updates
+- 💡 Tips and tricks
 
-[![YouTube Subscribe](https://img.shields.io/badge/YouTube-Subscribe%20Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@0xk-j7z)
-
----
-
-## 📄 License
-
-This project is proprietary software. All rights reserved.
-
----
-
-## 🙏 Credits
-
-- **OpenRouter** - AI model aggregation platform
-- **Font Awesome** - Icon library
-- **SQLite** - Database engine
+</div>
 
 ---
 
 <div align="center">
 
-### ⚡ Grok Evil - Unleashed AI Power ⚡
+## ⚡ **Grok Evil - Unleashed AI Power** ⚡
 
-**Built with passion by [0xk](https://www.youtube.com/@0xk-j7z)**
-
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@0xk-j7z)
+### **Built with passion by [0xk](https://www.youtube.com/@0xk-j7z)**
 
 ---
 
-<p align="center">
+<p>
   <strong>If you find this project useful, please ⭐ star this repository and subscribe to our channel!</strong>
 </p>
+
+[![YouTube](https://img.shields.io/badge/YouTube-0xk--j7z-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@0xk-j7z)
 
 </div>
